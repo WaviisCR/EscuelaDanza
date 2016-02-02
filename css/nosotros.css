@@ -16,4 +16,8 @@
 	background-repeat: repeat;
 	background-image: url(../img/cubes.png);
 }
-
+/*INSTRUCTORES*/
+.instructor-img img{
+	width: 85%;
+	height: 220px;
+}
