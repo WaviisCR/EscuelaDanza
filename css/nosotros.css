@@ -1,1 +1,19 @@
-/* Inserta tu codigo aqui */
+/*About*/
+.about-bck{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../img/dance_7.jpg);
+}
+.about{
+	background-color: black;
+    opacity: 0.5;
+    color: white;
+    margin-top: 27%;
+    margin-bottom: 17%;
+}
+/*Pilares*/
+.pilares-bck{
+	background-repeat: repeat;
+	background-image: url(../img/cubes.png);
+}
+
