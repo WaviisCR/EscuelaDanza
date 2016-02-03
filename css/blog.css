@@ -1,18 +1,16 @@
 /* Inserta tu codigo aqui */
-section{
-    background-color: 
-}
-section header h2{
-    text-align: center;
+.img-size{
+	width: 280px;
+    height: 254px;
 }
 .img-art-1{
-    width: 280px;
-    height: 252px;
-    background-size: cover;
     background-image: url(../img/blog1.jpg)
 }
-.tit-art{
-    text-align: left
+.img-art-2{
+    background-image: url(../img/profesor_5.jpg)
+}
+.img-art-3{
+    background-image: url(../img/instructor_1.jpg)
 }
 .bckg-silver{
     background-color: silver;
@@ -21,22 +19,6 @@ section header h2{
     width: 45%;
     height: 45px;
     background-color: #020E1E
-}
-.p-box{
-	margin-bottom: 3%;
-	margin-top: 2%;
-}
-.img-art-2{
-    width: 280px;
-    height: 252px;
-    background-size: cover;
-    background-image: url(../img/profesor_5.jpg)
-}
-.img-art-3{
-    width: 280px;
-    height: 252px;
-    background-size: cover;
-    background-image: url(../img/instructor_1.jpg)
 }
 .bckg-gray{
 	background-color: #f8f8f8;

@@ -1,4 +1,5 @@
 /* Inserta tu codigo aqui */
+
 .bg-clase{
     background-image: url(../img/dance_12.jpg);
     height: 400px;
@@ -26,9 +27,7 @@
 .texto{
     position: relative;
     top:40%;
-    color: white;
     font-size: 15px;
-    padding: 0%;
 }
 .bck-trs{
     background-color: black;

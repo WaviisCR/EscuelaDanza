@@ -25,7 +25,9 @@
 .pd-0{
 	padding: 0;
 }
-
+.pd-5{
+	padding: 5%;
+}
 .pd-7{
 	padding: 7%;
 }
@@ -37,6 +39,10 @@
 }
 .pl-15{
 	padding-left: 15%;
+}
+.pdlr-12{
+	padding-left: 12%;
+    padding-right: 12%
 }
 .mg-0{
 	margin: 0;
@@ -75,4 +81,7 @@
 }
 .bg-blue{
 	background-color: rgb(25, 41, 81);
+}
+.bg-color{
+	background-color: #192951;
 }
