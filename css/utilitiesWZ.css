@@ -1,74 +1,100 @@
 /* Util class */
 
-/*text*/
 .t-center {
 	text-align: center;
 }
-.p-light{
-    font-weight: lighter;
-}
-.font{
-    font-size: 3em;
- }
-.t-right {
+.text-right {
 	text-align: right;
 }
-.text-gray{
-    color:rgba(128, 128, 128, 0.36);
-}
-.large{
-    font-size: xx-large;
-}
-
-/*Position*/
 .pr-l {
 	position: relative;
     left: -12px;
 }
-.pa{
-    position: absolute;
-}
-
-/*Margin*/
 .mgt-7 {
 	margin-top: 7%;
 }
-.mgtb-2{
-    margin-top: 2%;
-    margin-bottom: 2%;
- }
- .mgtb-4{
-    margin-top: 4%;
-    margin-bottom: 4%;
- }
-.mb-5{
-    margin-bottom: 5%;
-}
-.ml-30{
-    margin-left: 23%;
- }
 .mgt-4 {
 	margin-top: 4%;
 }
-
-.mgb-3{
+.text-gray{
+	color:rgba(128, 128, 128, 0.36);
+}
+.large{
+    font-size: xx-large;
+  }
+ .mgb-3{
  	margin-bottom: 3%;
  }
-
- /*Padding*/
-
+ .pd-t-b-25{
+    padding-bottom: 25%;
+    padding-top:25%;
+ }
+ .brd-mgb-pb{
+ 	border-bottom: 2px solid rgba(211, 211, 211, 0.33);
+ 	margin-bottom: 5%;
+ 	padding-bottom: 5%;
+ }
  .pd-2{
  	padding: 2%;
  }
+ .pd-4{
+ 	padding:4%;
+ }
+ .pdt-4 {
+    padding-top: 4%;
+ }
+ .pdb-4 {
+    padding-bottom: 4%;
+ }
+ .pdt-5{
+ 	padding-top: 5%;
+ }
+ .font{
+ 	font-size: 3em;
+ }
+ .dsct{
+ 	color: #C79355;
+    font-size: 1em;
+    font-weight: lighter;
+    margin-top: 2%;
+ }
+ .mgtb-2{
+ 	margin-top: 2%;
+ 	margin-bottom: 2%;
+ }
+ .ml-30{
+ 	margin-left: 23%;
+ }
+ .pdl-4{
+ 	padding-left: 4%;
+ }
+ .mgt-2{
+    margin-top: 2%;
+ }
+  .mgtb-4{
+ 	margin-top: 4%;
+ 	margin-bottom: 4%;
+ }
+  .mgtb-5{
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+ .mb-5{
+ 	margin-bottom: 5%
+ }
+ .anone{
+    text-decoration: none;
+}
+.container-full{
+    width: 100%;
+    margin: 0 auto;
+}
 .pl-7{
     padding-left: 7px;
 }
 
 .pr-7{
     padding-right: 7px;
-}
-.pd-0{
-    padding: 0;
 }
 
 .pt-7{
@@ -110,48 +136,29 @@
 .pb-42{
     padding-bottom: 42px;
 }
-.pd-4{
- 	padding:4%;
- }
-.pdt-4 {
-    padding-top: 4%;
- }
-.pdb-4 {
-    padding-bottom: 4%;
- }
-.pdt-5{
- 	padding-top: 5%;
- }
-.pdl-4{
- 	padding-left: 4%;
- }
-
- /*DISPLAY*/
- .d-ib{
-    display: inline-block;
-}
-.d-b{
-    display: block;
-}
-
-/*Others*/
-.anone{
-    text-decoration: none;
-}
-.container-full{
-    width: 100%;
-    margin: 0 auto;
-}
 .w-h-10{
     width: 10%;
     height: 10%;
 }
-.mgb-pb{
+.p-light{
+    font-weight: lighter;
+}
+.d-ib{
+    display: inline-block;
+}
+.pd-3{
+    padding: 3%;
+}
+
+.d-b{
+    display: block;
+}
+.pdt-8{
+    padding-top: 8%;
+}
+.pdb-8{
+    padding-bottom: 8%;
+}
+.pb-7{
     margin-bottom: 5%;
-    padding-bottom: 5%;
- }
- .bg-img-block{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 }

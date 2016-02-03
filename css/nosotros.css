@@ -1,23 +1,69 @@
 /*About*/
 .about-bck{
-	background-size: cover;
-	background-repeat: no-repeat;
 	background-image: url(../img/dance_7.jpg);
+	background-size: 1800px;
+	background-repeat: no-repeat;
+	background-position: left;
 }
 .about{
 	background-color: black;
     opacity: 0.5;
     color: white;
-    margin-top: 27%;
-    margin-bottom: 17%;
+    width: 100%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 211px;
 }
 /*Pilares*/
 .pilares-bck{
 	background-repeat: repeat;
 	background-image: url(../img/cubes.png);
 }
+.pilares-box{
+	width: 80%; 
+	margin: 0 auto;
+}
+.line{
+    border-top: 1px solid silver;
+    width: 100%;
+}
+.frase{
+	font-size:140%;
+	text-align: center
+}
 /*INSTRUCTORES*/
-.instructor-img img{
-	width: 85%;
-	height: 220px;
+.instructor-img{
+	height: 180px;
+}
+.bckg1{
+	background-size: cover;
+	background-image: url(../img/profesor_4.jpg);
+}
+.bckg2{
+	background-size: cover;
+	background-image: url(../img/profesor_14.jpg);
+}
+.bckg3{
+	background-size: cover;
+	background-image: url(../img/profesor_1.jpg);
+}
+.bckg4{
+	background-size: cover;
+	background-image: url(../img/profesor_10.jpg);
+}
+.bckg5{
+	background-size: cover;
+	background-image: url(../img/profesor_11.jpg);
+}
+.bckg6{
+	background-size: cover;
+	background-image: url(../img/profesor_12.jpg);
+}
+.bckg7{
+	background-size: cover;
+	background-image: url(../img/profesor_9.jpg);
+}
+.bckg8{
+	background-size: cover;
+	background-image: url(../img/profesor_15.jpg);
 }

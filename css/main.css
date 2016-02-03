@@ -9,6 +9,7 @@ header nav{
 /*Section: danza*/
 .bck-danza{
 	background-image: url(../img/dance_1.jpg);
+    height: 480px;
 }
 .txt-sty{
 	color: white;
@@ -52,23 +53,26 @@ header nav{
 .box{
 	margin-top: 7%;
 	margin-bottom: 9%;
+    padding-left: 12%;
+    padding-right: 12%
 }
 .box p{
-	font-size: 185%;
+	font-size: 150%;
 }
 /*Section Profesores*/
 .box-profesores{
 	width: 100%;
-	height: 280px;
+	height: 352px;
 	border: solid 1px #020E1E
 }
 .box-img1{
-
-	height: 278px;
+    background-size: 720px 482px;
+    height: 350px;
 	background-image: url(../img/instructor_4.jpg);
 }
 .box-img2{
-	height: 278px;
+	background-size: 720px 482px;
+    height: 350px;
 	background-image: url(../img/profesor_9.jpg);
 }
 .danza{
@@ -76,4 +80,54 @@ header nav{
 	font-size: 45px;
 	padding: 5%;
 }
+.fondo-footer{
+    background-image: url(../img/shoes_1.jpg);
+    height: 480px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.form{
+    position: relative;
+    margin-left: 10%;
+}
+/* style icon */
+.form .fa {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.left-icon .fa  { 
+    left:  0px;
+}
+.top-icon .fa{ 
+    top: -4px;
+}
+.right-addon .fa { 
+    right: 0px;
+}
+.left-icon input  {
+ padding-left:  30px; 
+}
+.fc-text{
+    height: 120px;
+    width: 100%;
+    border: gray 0.5px solid;
+}
 
+.form-control{
+     width: 100%;
+     height: 30px;
+    border: gray 0.5px solid;
+}
+textarea{
+    padding-left:6%;
+}
+
+.bckg-trs{
+    background: transparent;
+}
+.b-submit{
+    margin-left: 10%;
+    width: 90%;
+}
